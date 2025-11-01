@@ -1,0 +1,182 @@
+/* --- Global Layout --- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0C0E10;
+  color: white;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  width: 250px;
+  background-color: #111417;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.slogan {
+  color: red;
+  align-items: center;
+  justify-content: center;
+}
+
+.YRM{
+     align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #1C2025;
+  margin: 10px 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.nav a:hover {
+  color: #ff4040;
+}
+
+/* --- Content Area (Search + Food List) --- */
+.content-area {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* --- Search Bar --- */
+.search {
+  width: 100%;
+  background-color: #191D20;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1C2025;
+}
+
+.search i {
+  margin-right: 10px;
+  
+}
+
+.search input{
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 14px;
+  padding: 8px;
+  background-color: #272A30;
+  border-radius: 5px;
+}
+
+
+
+button {
+  height: 35px;
+  width: 130px;
+  padding: 0 15px;
+  background-color: #FF4747;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #FF2C2C;
+}
+
+.small {
+  max-width: 40px;
+  margin-left: 10px;
+}
+
+.banner{
+    height: 270px;
+    width: 1200px;
+    margin: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+   margin-left: 20px;
+}
+
+.food-card {
+  background-color: #191D20;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.food-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* --- Food List --- */
+.main-content {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+li {
+  background-color: #191D20;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.05);
+}

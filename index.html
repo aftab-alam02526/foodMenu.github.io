@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Menu</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- ✅ Font Awesome (for icons) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+</head>
+
+<body>
+  <!-- ✅ Sidebar -->
+  <div class="sidebar">
+    <img class="logo" src="img/logo.png" alt="Logo" />
+    <p class="YRM">Your Restaurant Menu</p>
+    <p class="slogan">Your Slogan</p>
+    <p class="line"></p>
+
+    <nav class="nav">
+      <p>Quick Links</p>
+      <a href="#">1. Home</a>
+      <a href="#">2. Your Order</a>
+      <a href="#">3. Wallet</a>
+      <a href="#">4. Profile</a>
+      <a href="#">5. Logout</a>
+
+      <p class="line"></p>
+
+      <p>More About Us</p>
+      <a href="#">1. Blog</a>
+      <a href="#">2. Upcoming Dishes</a>
+      <a href="#">3. Our Story</a>
+      <a href="#">4. Social Media Links</a>
+    </nav>
+  </div>
+
+  <!-- ✅ Main Area -->
+  <div class="content-area">
+    <!-- Search bar -->
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search Food items..." />
+      <button class="signup-btn">Sign Up</button>
+      <button class="login-btn">Login</button>
+      <img class="small" src="img/small.png" alt="Logo" />
+    </div>
+    <div class="banner">
+        <img class="banner" src="img/banner.png" alt="Logo" />
+    </div>
+    <div class="menu">
+        <p>Menu</p>
+    </div>
+
+    <!-- Food list -->
+    <div class="main-content">
+      <ul id="foodList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
